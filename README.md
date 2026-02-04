@@ -375,18 +375,17 @@ GROQ_MODEL_NAME=llama-3.3-70b-versatile
 
 ## Future Enhancements
 
-- [ ] Voice input support (Arabic speech-to-text)
-- [ ] Export to Excel/PDF
-- [ ] User authentication and history
-- [ ] Real-time data from Etimad API
-- [ ] Advanced analytics and trend prediction
+- [ ] User Personalization
+- [ ] Real-time Alerts & API Integration
+- [ ] Data Ecosystem Expansion 
+- [ ] Multi-lingual Support
 
 ---
 
 ## Team
 
 **Nabahan Team**
-- Project developed for AI Agents course final project
+- Project developed for AI Professionals Bootcamp | SDAIA
 
 ## License
 
