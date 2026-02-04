@@ -1,0 +1,8 @@
+tender_doc_price_range,source_file,ingestion_date
+مجانا,Tender Document Price Range.csv,2026-01-31
+"1 - 1,000",Tender Document Price Range.csv,2026-01-31
+"1,001 - 10,000",Tender Document Price Range.csv,2026-01-31
+"10,001 - 20,000",Tender Document Price Range.csv,2026-01-31
+"20,001 - 40,000",Tender Document Price Range.csv,2026-01-31
+"40,001 - 50,000",Tender Document Price Range.csv,2026-01-31
+"> 50,000",Tender Document Price Range.csv,2026-01-31

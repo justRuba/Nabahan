@@ -1,0 +1,8 @@
+main_tender_status,sub_tender_status,source_file,ingestion_date
+الكل,الكل,Tender_Statuses.csv,2026-01-31
+المنافسات النشطة,تقديم العروض,Tender_Statuses.csv,2026-01-31
+المنافسات المنتهية,الكل,Tender_Statuses.csv,2026-01-31
+المنافسات المنتهية,مرحلة فتح العروض,Tender_Statuses.csv,2026-01-31
+المنافسات المنتهية,مرحلة فحص العروض,Tender_Statuses.csv,2026-01-31
+المنافسات المنتهية,مرحلة الترسية,Tender_Statuses.csv,2026-01-31
+المنافسات المنتهية,تم اعلان الترسية,Tender_Statuses.csv,2026-01-31

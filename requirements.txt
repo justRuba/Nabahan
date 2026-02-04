@@ -1,0 +1,34 @@
+# Nabahan AI Agent Dependencies
+# ==============================
+
+# Core AI/ML
+vanna[chromadb,groq]>=0.7.0
+groq>=0.4.0
+chromadb>=0.4.0
+
+# Web Framework
+streamlit>=1.30.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Evaluation
+deepeval>=1.0.0
+
+# Visualization
+plotly>=5.18.0
+altair>=5.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Database
+# sqlite3 is built-in to Python
+
+# Arabic Text Support
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2

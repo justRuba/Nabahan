@@ -1,0 +1,125 @@
+[
+  {
+    "question": "كم عدد المناقصات الحالية في قاعدة البيانات؟",
+    "category": "count",
+    "expected_table": "tenders_full_details",
+    "description": "Basic count query for tenders"
+  },
+  {
+    "question": "كم عدد المشاريع المستقبلية؟",
+    "category": "count",
+    "expected_table": "future_projects",
+    "description": "Basic count query for future projects"
+  },
+  {
+    "question": "ما هي المناقصات المتاحة في منطقة الرياض؟",
+    "category": "region_filter",
+    "expected_table": "tenders_full_details",
+    "filters": {
+      "regions": ["الرياض"]
+    },
+    "description": "Region-based filter query"
+  },
+  {
+    "question": "أعرض المشاريع المستقبلية في منطقة مكة المكرمة",
+    "category": "region_filter",
+    "expected_table": "future_projects",
+    "description": "Future projects by region"
+  },
+  {
+    "question": "ما هي أكثر الجهات الحكومية من حيث عدد المناقصات؟",
+    "category": "aggregation",
+    "expected_table": "tenders_full_details",
+    "description": "Top government entities by tender count"
+  },
+  {
+    "question": "توزيع المناقصات حسب حالتها",
+    "category": "distribution",
+    "expected_table": "tenders_full_details",
+    "description": "Distribution by tender status"
+  },
+  {
+    "question": "ما هي أنواع المناقصات المتاحة؟",
+    "category": "lookup",
+    "expected_table": "tender_types",
+    "description": "List tender types"
+  },
+  {
+    "question": "ما هي المناطق السعودية في قاعدة البيانات؟",
+    "category": "lookup",
+    "expected_table": "regions",
+    "description": "List Saudi regions"
+  },
+  {
+    "question": "كم عدد المشاريع المخططة لسنة 2024؟",
+    "category": "time_filter",
+    "expected_table": "future_projects",
+    "description": "Projects by year"
+  },
+  {
+    "question": "ما هي المناقصات المجانية؟",
+    "category": "value_filter",
+    "expected_table": "tenders_full_details",
+    "description": "Free tenders (document value = 0)"
+  },
+  {
+    "question": "توزيع المشاريع المستقبلية حسب السنة",
+    "category": "distribution",
+    "expected_table": "future_projects",
+    "description": "Projects distribution by year"
+  },
+  {
+    "question": "ما هي طبيعة المشاريع المستقبلية الأكثر شيوعاً؟",
+    "category": "aggregation",
+    "expected_table": "future_projects",
+    "description": "Most common project nature"
+  },
+  {
+    "question": "أعرض المناقصات التي تنتهي قريباً",
+    "category": "time_filter",
+    "expected_table": "tenders_full_details",
+    "description": "Upcoming tender deadlines"
+  },
+  {
+    "question": "كم عدد الجهات الحكومية المسجلة؟",
+    "category": "count",
+    "expected_table": "government_entity",
+    "description": "Count of government entities"
+  },
+  {
+    "question": "ما هي الأنشطة الرئيسية للمناقصات؟",
+    "category": "lookup",
+    "expected_table": "primary_activity",
+    "description": "List primary activities"
+  },
+  {
+    "question": "ما هو الطقس اليوم؟",
+    "category": "out_of_scope",
+    "expected_response": "عذراً، غير متوفرة البيانات اللازمة لتحليل هذا السؤال.",
+    "description": "Out of scope question - weather"
+  },
+  {
+    "question": "أخبرني عن أسعار الأسهم",
+    "category": "out_of_scope",
+    "expected_response": "عذراً، غير متوفرة البيانات اللازمة لتحليل هذا السؤال.",
+    "description": "Out of scope question - stocks"
+  },
+  {
+    "question": "ما هي أفضل المطاعم في الرياض؟",
+    "category": "out_of_scope",
+    "expected_response": "عذراً، غير متوفرة البيانات اللازمة لتحليل هذا السؤال.",
+    "description": "Out of scope question - restaurants"
+  },
+  {
+    "question": "توزيع المناقصات حسب المنطقة",
+    "category": "distribution",
+    "expected_table": "tenders_full_details",
+    "description": "Tenders distribution by region"
+  },
+  {
+    "question": "أعلى 5 جهات حكومية من حيث عدد المشاريع المستقبلية",
+    "category": "aggregation",
+    "expected_table": "future_projects",
+    "description": "Top 5 entities by future projects"
+  }
+]
