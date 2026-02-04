@@ -108,7 +108,7 @@ Final_Project/
 
 | File | Description |
 |------|-------------|
-| `app.py` | Main Streamlit application with 5 pages: Home (AI Chat), Tenders, Projects, About, Contact. Includes all styling, navigation, and data display logic |
+| `app.py` | Main Streamlit application with 4 pages: Home (AI Chat), Tenders, Projects, About. Includes all styling, navigation, and data display logic |
 | `components/chat_interface.py` | Reusable chat interface component for AI queries |
 | `components/sidebar_filters.py` | Filter sidebar with region, entity, and status filters |
 | `components/visualizations.py` | Chart generation components using Plotly |
